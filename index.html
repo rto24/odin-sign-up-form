@@ -18,21 +18,22 @@
 
       <div class="inputs-container">
         <label for="first-name">First Name</label>
-        <input type="text" id="first-name" name="first-name">
+        <input type="text" id="first-name" name="first-name" required>
 
         <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" name="last-name">
+        <input type="text" id="last-name" name="last-name" required>
 
         <label for="user-email">Email</label>
         <input type="email" id="user-email" name="user-email"
-        placeholder="you@example.com">
+        placeholder="you@example.com" required>
 
         <label for="user-phone">Phone Number</label>
         <input type="tel" id="user-phone" name="user-phone"
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="123-456-7890">
 
         <label for="user-password">Password</label>
-        <input type="password" id="user-password" name="user-password">
+        <input type="password" id="user-password" name="user-password" required>
       </div>
   </div>
 </form>
