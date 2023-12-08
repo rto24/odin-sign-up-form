@@ -28,7 +28,11 @@
         placeholder="you@example.com">
 
         <label for="user-phone">Phone Number</label>
-        <input type="number" id="user-phone" name="user-phone">
+        <input type="tel" id="user-phone" name="user-phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+
+        <label for="user-password">Password</label>
+        <input type="password" id="user-password" name="user-password">
       </div>
   </div>
 </form>
