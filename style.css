@@ -1,3 +1,7 @@
+:root {
+  --color-text: white;
+}
+
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -61,6 +65,14 @@ img {
   top: 100px;
   background-color: black;
   opacity: 40%;
+}
+
+.logo-text {
+  font-size: 45px;
+  position: absolute;
+  top: 145px;
+  left: 300px;
+  color: var(--color-text);
 }
 
 .create-account-btn {
