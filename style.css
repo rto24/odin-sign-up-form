@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .form-container {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   width: 50vw;
+  height: 100vh;
   float: right;
 }
 
@@ -19,18 +25,13 @@ img {
   max-height:100%;
 }
 
-h1 {
-  text-align: left;
-  
-}
-
 .inputs-container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 50vw;
+  height: 100vh;
   gap: 10px;
-  align-content: flex-start;
   padding: 10px;
 }
 
