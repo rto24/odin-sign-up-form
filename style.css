@@ -31,7 +31,6 @@ h1 {
   width: 50vw;
   gap: 10px;
   align-content: flex-start;
-  border: 1px solid black;
   padding: 10px;
 }
 
@@ -40,4 +39,5 @@ h1 {
   display: flex;
   width: 40vw;
   height: 100vh; 
+  position: absolute;
 }
