@@ -1,3 +1,7 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,12 +41,14 @@ img {
 
 .image-container {
   display: flex;
+  max-width: 800px;
   width: 40vw;
   height: 100vh; 
   position: absolute;
 }
 
 .logo {
+  max-width: 800px;
   width: 40vw;
   height: 10rem;
   position: absolute;
