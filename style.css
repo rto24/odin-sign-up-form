@@ -25,6 +25,10 @@ input {
   height: 2rem;
 }
 
+input:invalid {
+  border-color: red;
+}
+
 input::placeholder {
   font-size: 15px;
 }
