@@ -16,11 +16,17 @@ html {
 }
 
 input {
+  font-size: 20px;
   width: 15rem;
+  height: 2rem;
+}
+
+input::placeholder {
+  font-size: 15px;
 }
 
 label {
-  width: 100px;
+  width: 200px;
   margin-right: 250px;
 }
 
@@ -61,4 +67,5 @@ img {
   width: 10rem;
   height: 2rem;
   font-weight: bold;
+  margin-top: 10px;
 }
