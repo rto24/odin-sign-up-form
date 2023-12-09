@@ -56,3 +56,9 @@ img {
   background-color: black;
   opacity: 40%;
 }
+
+.create-account-btn {
+  width: 10rem;
+  height: 2rem;
+  font-weight: bold;
+}
