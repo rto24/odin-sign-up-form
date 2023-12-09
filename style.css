@@ -67,6 +67,13 @@ img {
   opacity: 40%;
 }
 
+.odin-logo {
+  position: absolute;
+  width: 6rem;
+  top: 115px;
+  left: 150px;
+}
+
 .logo-text {
   font-size: 45px;
   position: absolute;
