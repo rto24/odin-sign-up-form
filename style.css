@@ -1,9 +1,11 @@
 :root {
   --color-text: white;
+  --color-background: #696969;
 }
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--color-background);
 }
 
 * {
